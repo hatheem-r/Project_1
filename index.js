@@ -1,9 +1,50 @@
-let score = 0
+let scoreH = 0
 
-let pScore = document.getElementById("pScore")
+let pScoreH = document.getElementById("pScoreH")
 
-function plusOne() {
-    score += 1
-    pScore.textContent = score
+function plusOneH() {
+    scoreH += 1
+    pScoreH.textContent = scoreH
 }
 
+function plusTwoH() {
+    scoreH += 2
+    pScoreH.textContent = scoreH
+}
+
+function plusThreeH() {
+    scoreH += 3
+    pScoreH.textContent = scoreH
+}
+
+function resetH() {
+    scoreH = 0
+    pScoreH.textContent = ""
+    console.log("scoreH=", scoreH)
+
+}
+
+let scoreA = 0
+
+let pScoreA = document.getElementById("pScoreA")
+
+function plusOneA() {
+    scoreA += 1
+    pScoreA.textContent = scoreA
+}
+
+function plusTwoA() {
+    scoreA += 2
+    pScoreA.textContent = scoreA
+}
+
+function plusThreeA() {
+    scoreA += 3
+    pScoreA.textContent = scoreA
+}
+
+function resetA() {
+    scoreA = 0
+    pScoreA.textContent = ""
+    console.log("scoreA=", scoreA)
+}
