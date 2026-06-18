@@ -19,7 +19,7 @@ function plusThreeH() {
 
 function resetH() {
     scoreH = 0
-    pScoreH.textContent = ""
+    pScoreH.textContent = "0"
     console.log("scoreH=", scoreH)
 
 }
@@ -45,6 +45,6 @@ function plusThreeA() {
 
 function resetA() {
     scoreA = 0
-    pScoreA.textContent = ""
+    pScoreA.textContent = "0"
     console.log("scoreA=", scoreA)
 }

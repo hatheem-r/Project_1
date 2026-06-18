@@ -3,37 +3,40 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        <h1>BASKETBALL SCOREBOARD</h1>
+        
         <div class="container">
-            <div>
+            <div class="team-box">
                 <h3>HOME</h3>
-                <div>
-                    <h2>Score: </h2>
-                    <p id = "pScoreH"> </p>
+                <div class="score-container">
+                    <p id="pScoreH" class="score">0</p>
+                </div>
+                <div class="btn-row">
+                    <button id="plus-oneH" onclick="plusOneH()">+1</button>
+                    <button id="plus-twoH" onclick="plusTwoH()">+2</button>
+                    <button id="plus-threeH" onclick="plusThreeH()">+3</button>
                 </div>
                 <div>
-                    <button id = "plus-oneH" onclick="plusOneH()">+1</button>
-                    <button id = "plus-twoH" onclick="plusTwoH()">+2</button>
-                    <button id = "plus-threeH" onclick="plusThreeH()" >+3</button>
-                </div>
-                <div>
-                    <button id = "resetH" onclick="resetH()">Reset</button>
+                    <button id="resetH" onclick="resetH()" class="reset-btn">Reset</button>
                 </div>
             </div>
-            <div>
+
+            <div class="team-box">
                 <h3>UNICORNS</h3>
-                <div>
-                    <h2>Score: </h2>
-                    <p id = "pScoreA"> </p>
+                <div class="score-container">
+                    <p id="pScoreA" class="score">0</p>
+                </div>
+                <div class="btn-row">
+                    <button id="plus-oneA" onclick="plusOneA()">+1</button>
+                    <button id="plus-twoA" onclick="plusTwoA()">+2</button>
+                    <button id="plus-threeA" onclick="plusThreeA()">+3</button>
                 </div>
                 <div>
-                    <button id = "plus-oneA" onclick="plusOneA()">+1</button>
-                    <button id = "plus-twoA" onclick="plusTwoA()">+2</button>
-                    <button id = "plus-threeA" onclick="plusThreeA()" >+3</button>
+                    <button id="resetA" onclick="resetA()" class="reset-btn">Reset</button>
                 </div>
-                <div>
-                    <button id = "resetA" onclick="resetA()">Reset</button>
-                </div>
+            </div>
         </div>
+        
         <script src="index.js"></script>
     </body>
 </html>

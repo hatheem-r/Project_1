@@ -1,8 +1,80 @@
 body {
     margin: 0;
+    background-color: #222222; /* Dark background like a stadium */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #ff8c00; /* Basketball Orange */
+    margin-top: 40px;
+    letter-spacing: 2px;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #111111;
+    border: 4px solid #ff8c00;
+    border-radius: 10px;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+    font-size: 32px;
+    color: #eeeeee;
+}
+
+/* Makes the score look like a digital LED display */
+.score {
+    background-color: #000000;
+    color: #ff3333; 
+    font-size: 72px;
+    font-weight: bold;
+    width: 140px;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-row {
+    margin-bottom: 15px;
+}
+
+/* Simple button styling */
+button {
+    background-color: transparent;
+    border: 2px solid #ff8c00;
+    color: white;
+    padding: 10px 15px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff8c00;
+    color: black;
+}
+
+.reset-btn {
+    border-color: #555555;
+    color: #aaaaaa;
+}
+
+.reset-btn:hover {
+    background-color: #555555;
+    color: white;
 }
