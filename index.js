@@ -3,7 +3,7 @@ let scoreH = 0
 let pScoreH = document.getElementById("pScoreH")
 
 function plusOneH() {
-    scoreH += 1
+    scoreH += 1.5
     pScoreH.textContent = scoreH
 }
 
@@ -29,7 +29,7 @@ let scoreA = 0
 let pScoreA = document.getElementById("pScoreA")
 
 function plusOneA() {
-    scoreA += 1
+    scoreA += 1.5
     pScoreA.textContent = scoreA
 }
 
